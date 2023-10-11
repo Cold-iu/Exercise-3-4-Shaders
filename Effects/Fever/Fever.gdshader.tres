@@ -1,0 +1,10 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://bp4jhek7gru3r"]
+
+[ext_resource type="Shader" path="res://Effects/Fever/Fever.gdshader" id="1_55w12"]
+
+[resource]
+shader = ExtResource("1_55w12")
+shader_parameter/fireMovement = Vector2(-0.01, -0.5)
+shader_parameter/distortionMovement = Vector2(-0.01, -0.3)
+shader_parameter/normalStrength = 40.0
+shader_parameter/distortionStrength = 0.1
